@@ -1,0 +1,22 @@
+img {
+  animation: slide 2000ms infinite alternate-reverse;
+  background-color: aqua;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100px);
+  }
+}
+
+button {
+  transition: background-color 500ms;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
